@@ -1,4 +1,4 @@
-FROM i386/ubuntu:jammy
+FROM i386/ubuntu:focal
 
 MAINTAINER James D. Mitchell <jdm3@st-andrews.ac.uk>
 
