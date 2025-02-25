@@ -15,7 +15,8 @@ RUN apt-get update -qq \
       m4 \
       pkg-config \
       sudo \
-      vim
+      vim \
+      nodejs
 
 RUN adduser --quiet --shell /bin/bash --gecos "libsemigroups user,101,," --disabled-password libsemigroups \
         && adduser libsemigroups sudo \
