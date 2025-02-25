@@ -15,7 +15,8 @@ RUN apt-get update -qq \
       m4 \
       pkg-config \
       sudo \
-      vim
+      vim \
+      ruby
 
 RUN useradd -m -s /bin/zsh linuxbrew && \
     usermod -aG sudo linuxbrew &&  \
