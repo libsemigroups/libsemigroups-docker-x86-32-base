@@ -1,4 +1,4 @@
-FROM i386/ubuntu:focal
+FROM i386/ubuntu:bionic
 
 MAINTAINER James D. Mitchell <jdm3@st-andrews.ac.uk>
 
